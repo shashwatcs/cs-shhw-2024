@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Music Store</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="instruments.html">Instruments</a></li>
+                <li><a href="brands.html">Brands</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+    <main>
+        <section class="payment-form">
+            <h2>Payment Details</h2>
+            <form>
+                <label for="name">Name on Card:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                
+                <div class="card-icons">
+                    <img src="cc1.png" alt="Credit Card">
+                </div>
+                
+                <label for="expiry">Expiration Date:</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+                
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="thank-you.html" class="button">Purchase</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
